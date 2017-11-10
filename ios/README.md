@@ -1,0 +1,1 @@
+this is the project folder for the IOS altincare app
