@@ -1,6 +1,6 @@
 import express from 'express';
 import graphqlHTTP from 'express-graphql';
-import schema from './graphql/schema';
+import schema from './src/schema';
 
 const app = express();
 const dev = process.env.NODE_ENV === 'development';
