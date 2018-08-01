@@ -1,0 +1,14 @@
+{
+    "extends": "airbnb",
+    "rules": {
+      "func-names": ["error", "never"],
+      "indent": ["warn", 4],
+      "key-spacing": "off",
+      "comma-dangle":"off",
+      "prefer-const":"warn",
+      "padded-blocks":"off",
+      "no-use-before-define":"warn",
+      "no-plusplus":"warn",
+      "no-param-reassign":"off"
+    }
+  }

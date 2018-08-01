@@ -1,10 +1,11 @@
 {
-  "name": "altincare-node",
+  "name": "altincare-api",
   "version": "1.0.0",
-  "description": "node graphql api for altincare ios app",
-  "main": "app.js",
+  "description": "graphql api for altincare",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/patrickedelen/altincare#readme",
   "dependencies": {
-    "graphql": "^0.11.7"
+    "apollo-engine": "^1.1.2",
+    "apollo-server-express": "^2.0.0",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "graphql": "^0.13.2",
+    "mongoose": "^5.2.5"
   }
 }
